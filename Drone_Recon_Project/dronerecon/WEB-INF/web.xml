@@ -1,0 +1,12 @@
+
+
+<web-app>
+ <servlet>
+  <servlet-name>DroneDataService</servlet-name>
+  <servlet-class>com.dronerecon.ws.DroneDataService</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>DroneDataService</servlet-name>
+  <url-pattern>/DroneDataService</url-pattern>
+ </servlet-mapping>
+</web-app>
